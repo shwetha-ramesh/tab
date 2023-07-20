@@ -1,0 +1,68 @@
+{
+    "boxShadow": "none",
+    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.1a5defb3c19b4cac4a27829d1f979e4c.svg",
+    "labelText": "Label",
+    "topRow": 130,
+    "labelWidth": 5,
+    "type": "SELECT_WIDGET",
+    "serverSideFiltering": false,
+    "defaultOptionValue": "GREEN",
+    "animateLoading": true,
+    "leftColumn": 43,
+    "dynamicBindingPathList": [
+        {"key": "accentColor"},
+        {"key": "borderRadius"}
+    ],
+    "options": [
+        {
+            "label": "Blue",
+            "value": "BLUE"
+        },
+        {
+            "label": "Green",
+            "value": "GREEN"
+        },
+        {
+            "label": "Red",
+            "value": "RED"
+        }
+    ],
+    "placeholderText": "Select option",
+    "isDisabled": false,
+    "isRequired": false,
+    "dynamicHeight": "FIXED",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 137,
+    "mobileBottomRow": 137,
+    "widgetName": "Select1",
+    "isFilterable": true,
+    "displayName": "Select",
+    "searchTags": ["dropdown"],
+    "bottomRow": 137,
+    "parentRowSpace": 10,
+    "hideCard": false,
+    "mobileRightColumn": 63,
+    "parentColumnSpace": 14.09375,
+    "dynamicTriggerPathList": [{"key": "onDropdownClose"}],
+    "labelPosition": "Top",
+    "onDropdownClose": "{{navigateTo(\"\", {}, 'SAME_WINDOW').then(() => {\n  setInterval(() => {}, 5000, '/');\n});}}",
+    "key": "6qlh05cikk",
+    "labelTextSize": "0.875rem",
+    "isDeprecated": false,
+    "rightColumn": 63,
+    "widgetId": "ewnyf5oi88",
+    "minWidth": 450,
+    "parentId": "0",
+    "labelAlignment": "left",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 130,
+    "responsiveBehavior": "fill",
+    "originalTopRow": 130,
+    "mobileLeftColumn": 43,
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}

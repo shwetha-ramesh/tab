@@ -1,0 +1,74 @@
+{
+    "boxShadow": "none",
+    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.16c864f46228416bf937ce5e688bf1eb.svg",
+    "labelText": "Label",
+    "topRow": 186,
+    "labelWidth": 5,
+    "type": "MULTI_SELECT_WIDGET_V2",
+    "serverSideFiltering": false,
+    "defaultOptionValue": [
+        "GREEN",
+        "RED"
+    ],
+    "animateLoading": true,
+    "leftColumn": 32,
+    "dynamicBindingPathList": [
+        {"key": "accentColor"},
+        {"key": "borderRadius"}
+    ],
+    "options": [
+        {
+            "label": "Blue",
+            "value": "BLUE"
+        },
+        {
+            "label": "Green",
+            "value": "GREEN"
+        },
+        {
+            "label": "Red",
+            "value": "RED"
+        }
+    ],
+    "placeholderText": "Select option(s)",
+    "isDisabled": false,
+    "isRequired": false,
+    "dynamicHeight": "FIXED",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "onDropdownOpen": "{{postWindowMessage(\"\", \"window\", \"*\");}}",
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 193,
+    "mobileBottomRow": 121,
+    "widgetName": "MultiSelect2",
+    "isFilterable": true,
+    "displayName": "MultiSelect",
+    "searchTags": [
+        "dropdown",
+        "tags"
+    ],
+    "bottomRow": 193,
+    "parentRowSpace": 10,
+    "hideCard": false,
+    "mobileRightColumn": 52,
+    "parentColumnSpace": 14.09375,
+    "dynamicTriggerPathList": [{"key": "onDropdownOpen"}],
+    "labelPosition": "Top",
+    "key": "ke0y957f1j",
+    "labelTextSize": "0.875rem",
+    "isDeprecated": false,
+    "rightColumn": 52,
+    "widgetId": "mwqxvshxoe",
+    "minWidth": 450,
+    "parentId": "0",
+    "labelAlignment": "left",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 114,
+    "responsiveBehavior": "fill",
+    "originalTopRow": 186,
+    "mobileLeftColumn": 32,
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}

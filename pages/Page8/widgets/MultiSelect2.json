@@ -1,0 +1,73 @@
+{
+    "boxShadow": "none",
+    "allowSelectAll": true,
+    "iconSVG": "/static/media/icon.16c864f46228416bf937ce5e688bf1eb.svg",
+    "labelText": "Label",
+    "topRow": 41,
+    "labelWidth": 5,
+    "type": "MULTI_SELECT_WIDGET_V2",
+    "serverSideFiltering": true,
+    "defaultOptionValue": [
+        "GREEN",
+        "RED"
+    ],
+    "animateLoading": true,
+    "leftColumn": 19,
+    "dynamicBindingPathList": [
+        {"key": "accentColor"},
+        {"key": "borderRadius"}
+    ],
+    "options": [
+        {
+            "label": "Blue",
+            "value": "BLUE"
+        },
+        {
+            "label": "Green",
+            "value": "GREEN"
+        },
+        {
+            "label": "Red",
+            "value": "RED"
+        }
+    ],
+    "placeholderText": "Select option(s)",
+    "isDisabled": false,
+    "isRequired": false,
+    "dynamicHeight": "FIXED",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileBottomRow": 48,
+    "widgetName": "MultiSelect2",
+    "isFilterable": true,
+    "displayName": "MultiSelect",
+    "searchTags": [
+        "dropdown",
+        "tags"
+    ],
+    "bottomRow": 48,
+    "parentRowSpace": 10,
+    "hideCard": false,
+    "mobileRightColumn": 39,
+    "parentColumnSpace": 14.09375,
+    "dynamicTriggerPathList": [{"key": "onFilterUpdate"}],
+    "labelPosition": "Top",
+    "key": "4nmp38dcvx",
+    "labelTextSize": "0.875rem",
+    "isDeprecated": false,
+    "rightColumn": 39,
+    "widgetId": "087wi5j4yi",
+    "minWidth": 450,
+    "parentId": "0",
+    "labelAlignment": "left",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 41,
+    "responsiveBehavior": "fill",
+    "mobileLeftColumn": 19,
+    "maxDynamicHeight": 9000,
+    "onFilterUpdate": "{{showModal('Modal1');}}",
+    "minDynamicHeight": 4
+}

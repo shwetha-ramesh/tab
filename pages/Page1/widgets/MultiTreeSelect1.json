@@ -1,0 +1,81 @@
+{
+    "boxShadow": "none",
+    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.2e5219121218e442100087ea88da5cef.svg",
+    "labelText": "Label",
+    "topRow": 97,
+    "labelWidth": 5,
+    "type": "MULTI_SELECT_TREE_WIDGET",
+    "mode": "SHOW_ALL",
+    "defaultOptionValue": ["GREEN"],
+    "animateLoading": true,
+    "leftColumn": 35,
+    "dynamicBindingPathList": [
+        {"key": "accentColor"},
+        {"key": "borderRadius"}
+    ],
+    "options": [
+        {
+            "children": [
+                {
+                    "label": "Dark Blue",
+                    "value": "DARK BLUE"
+                },
+                {
+                    "label": "Light Blue",
+                    "value": "LIGHT BLUE"
+                }
+            ],
+            "label": "Blue",
+            "value": "BLUE"
+        },
+        {
+            "label": "Green",
+            "value": "GREEN"
+        },
+        {
+            "label": "Red",
+            "value": "RED"
+        }
+    ],
+    "placeholderText": "Select option(s)",
+    "isDisabled": false,
+    "isRequired": false,
+    "dynamicHeight": "FIXED",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "expandAll": false,
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 104,
+    "mobileBottomRow": 104,
+    "widgetName": "MultiTreeSelect1",
+    "displayName": "Multi TreeSelect",
+    "searchTags": [
+        "dropdown",
+        "multiselecttree"
+    ],
+    "bottomRow": 104,
+    "parentRowSpace": 10,
+    "hideCard": false,
+    "mobileRightColumn": 55,
+    "parentColumnSpace": 14.09375,
+    "dynamicTriggerPathList": [],
+    "labelPosition": "Top",
+    "key": "j0gwrbqzi2",
+    "labelTextSize": "0.875rem",
+    "isDeprecated": false,
+    "rightColumn": 55,
+    "widgetId": "5rl7n7h5hh",
+    "minWidth": 450,
+    "parentId": "0",
+    "labelAlignment": "left",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 97,
+    "responsiveBehavior": "fill",
+    "originalTopRow": 97,
+    "mobileLeftColumn": 35,
+    "maxDynamicHeight": 9000,
+    "allowClear": true,
+    "minDynamicHeight": 4
+}
