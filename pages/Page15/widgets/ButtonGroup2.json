@@ -1,0 +1,169 @@
+{
+    "boxShadow": "none",
+    "mobileBottomRow": 11,
+    "widgetName": "ButtonGroup2",
+    "isCanvas": false,
+    "displayName": "Button Group",
+    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.7c22979bacc83c8d84aedf56ea6c2022.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 7,
+    "bottomRow": 11,
+    "parentRowSpace": 10,
+    "groupButtons": {
+        "groupButton3": {
+            "buttonType": "MENU",
+            "iconName": "more",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {
+                "menuItem058u8sowq6": {
+                    "widgetId": "o4gkabp1m1",
+                    "index": 5,
+                    "id": "menuItem058u8sowq6",
+                    "label": "Menu Item 3",
+                    "isDisabled": false,
+                    "isVisible": true
+                },
+                "menuItemntucct08eh": {
+                    "widgetId": "yishzzxq31",
+                    "index": 3,
+                    "id": "menuItemntucct08eh",
+                    "label": "Menu Item 1",
+                    "isDisabled": false,
+                    "isVisible": true
+                },
+                "menuItem56czbg40ac": {
+                    "widgetId": "kv5bs4c54j",
+                    "index": 7,
+                    "id": "menuItem56czbg40ac",
+                    "label": "Menu Item 5",
+                    "isDisabled": false,
+                    "isVisible": true
+                },
+                "menuItem8m3kh9iga8": {
+                    "widgetId": "fg2ug6zpvg",
+                    "index": 8,
+                    "id": "menuItem8m3kh9iga8",
+                    "label": "Menu Item 6",
+                    "isDisabled": false,
+                    "isVisible": true
+                },
+                "menuItemvky66q9v2x": {
+                    "widgetId": "9vhvus6snl",
+                    "index": 4,
+                    "id": "menuItemvky66q9v2x",
+                    "label": "Menu Item 2",
+                    "isDisabled": false,
+                    "isVisible": true
+                },
+                "menuItem1": {
+                    "backgroundColor": "#FFFFFF",
+                    "onClick": "",
+                    "widgetId": "",
+                    "index": 0,
+                    "label": "First Option",
+                    "id": "menuItem1",
+                    "isVisible": true,
+                    "isDisabled": false
+                },
+                "menuItem3": {
+                    "backgroundColor": "#DD4B34",
+                    "onClick": "",
+                    "iconName": "trash",
+                    "widgetId": "",
+                    "iconColor": "#FFFFFF",
+                    "iconAlign": "right",
+                    "index": 2,
+                    "label": "Delete",
+                    "id": "menuItem3",
+                    "isVisible": true,
+                    "isDisabled": false,
+                    "textColor": "#FFFFFF"
+                },
+                "menuItem2": {
+                    "backgroundColor": "#FFFFFF",
+                    "onClick": "",
+                    "widgetId": "",
+                    "index": 1,
+                    "label": "Second Option",
+                    "id": "menuItem2",
+                    "isVisible": true,
+                    "isDisabled": false
+                },
+                "menuItem3fcb2zzobv": {
+                    "widgetId": "tv99zbcdae",
+                    "index": 6,
+                    "id": "menuItem3fcb2zzobv",
+                    "label": "Menu Item 4",
+                    "isDisabled": false,
+                    "isVisible": true
+                }
+            },
+            "index": 2,
+            "label": "More",
+            "id": "groupButton3",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "groupButton1": {
+            "buttonType": "SIMPLE",
+            "iconName": "heart",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 0,
+            "label": "Favorite",
+            "id": "groupButton1",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "groupButton2": {
+            "buttonType": "SIMPLE",
+            "iconName": "add",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 1,
+            "label": "Add",
+            "id": "groupButton2",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "type": "BUTTON_GROUP_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 38,
+    "animateLoading": true,
+    "parentColumnSpace": 14.015625,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 14,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "groupButtons.groupButton1.buttonColor"},
+        {"key": "groupButtons.groupButton2.buttonColor"},
+        {"key": "groupButtons.groupButton3.buttonColor"}
+    ],
+    "key": "aw3hkg1vka",
+    "orientation": "horizontal",
+    "isDeprecated": false,
+    "rightColumn": 38,
+    "widgetId": "vakfncspox",
+    "minWidth": 450,
+    "isVisible": true,
+    "version": 1,
+    "parentId": "0",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 7,
+    "responsiveBehavior": "fill",
+    "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 14,
+    "buttonVariant": "PRIMARY"
+}
