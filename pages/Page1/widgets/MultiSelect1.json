@@ -16,20 +16,6 @@
         {"key": "accentColor"},
         {"key": "borderRadius"}
     ],
-    "options": [
-        {
-            "label": "Blue",
-            "value": "BLUE"
-        },
-        {
-            "label": "Green",
-            "value": "GREEN"
-        },
-        {
-            "label": "Red",
-            "value": "RED"
-        }
-    ],
     "placeholderText": "Select option(s)",
     "isDisabled": false,
     "isRequired": false,
@@ -55,16 +41,32 @@
     "parentColumnSpace": 14.09375,
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Top",
+    "sourceData": [
+        {
+            "label": "Blue",
+            "value": "BLUE"
+        },
+        {
+            "label": "Green",
+            "value": "GREEN"
+        },
+        {
+            "label": "Red",
+            "value": "RED"
+        }
+    ],
     "key": "2f1rvax0m1",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
     "rightColumn": 39,
     "widgetId": "g7o8keo6b2",
+    "optionValue": "value",
     "minWidth": 450,
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "mobileTopRow": 393,
+    "optionLabel": "label",
     "responsiveBehavior": "fill",
     "originalTopRow": 393,
     "mobileLeftColumn": 19,

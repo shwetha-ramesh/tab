@@ -13,20 +13,6 @@
         {"key": "accentColor"},
         {"key": "borderRadius"}
     ],
-    "options": [
-        {
-            "label": "Blue",
-            "value": "BLUE"
-        },
-        {
-            "label": "Green",
-            "value": "GREEN"
-        },
-        {
-            "label": "Red",
-            "value": "RED"
-        }
-    ],
     "placeholderText": "Select option",
     "isDisabled": false,
     "isRequired": false,
@@ -50,16 +36,32 @@
     "dynamicTriggerPathList": [{"key": "onDropdownClose"}],
     "labelPosition": "Top",
     "onDropdownClose": "{{navigateTo(\"\", {}, 'SAME_WINDOW').then(() => {\n  setInterval(() => {}, 5000, '/');\n});}}",
+    "sourceData": [
+        {
+            "label": "Blue",
+            "value": "BLUE"
+        },
+        {
+            "label": "Green",
+            "value": "GREEN"
+        },
+        {
+            "label": "Red",
+            "value": "RED"
+        }
+    ],
     "key": "6qlh05cikk",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
     "rightColumn": 63,
     "widgetId": "ewnyf5oi88",
+    "optionValue": "value",
     "minWidth": 450,
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "mobileTopRow": 130,
+    "optionLabel": "label",
     "responsiveBehavior": "fill",
     "originalTopRow": 130,
     "mobileLeftColumn": 43,

@@ -22,7 +22,9 @@
         {"key": "borderRadius"}
     ],
     "labelPosition": "Top",
-    "options": [
+    "placeholderText": "Select option",
+    "isDisabled": false,
+    "sourceData": [
         {
             "label": "Blue",
             "value": "BLUE"
@@ -36,8 +38,6 @@
             "value": "RED"
         }
     ],
-    "placeholderText": "Select option",
-    "isDisabled": false,
     "key": "h485e6whg5",
     "labelTextSize": "0.875rem",
     "isRequired": false,
@@ -46,6 +46,7 @@
     "dynamicHeight": "FIXED",
     "widgetId": "7mmdbfw55p",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "optionValue": "value",
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
@@ -53,6 +54,7 @@
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "optionLabel": "label",
     "responsiveBehavior": "fill",
     "originalTopRow": 240,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
